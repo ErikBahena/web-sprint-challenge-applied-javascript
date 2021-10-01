@@ -62,5 +62,6 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. What is the DOM?
 2. What is an event?
 3. What is an event listener?
-4. Why would we convert a NodeList into an Array?
-5. What is a component?
+4. Why would we convert a NodeList into an Array? Array.from(NodeList)
+
+5. What is a component? A reusable, dry combination of html, css, and javascript. Usually created with a function and used to return an element or component.

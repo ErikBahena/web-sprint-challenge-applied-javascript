@@ -50,7 +50,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
+- [ ] Submit via Codegrade by committing and pushing any new changes to the _main_ branch.
 - [ ] Check Codegrade for automated feedback.
 - [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
 - [ ] Any changes pushed after the deadline will not receive any feedback.
@@ -60,8 +60,11 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+   The D.O.M stand for the document object model. The dom is an api which allows users to interact with an xml or html document. The dom api takes the html or xml document and allows the user to reference it in a tree like structure. For example, each element in html being a node on that tree.
 2. What is an event?
+   An event occurs when a user or browser manipulates a page. Like when a user clicks on a web page, the browser interprets that as an event.
 3. What is an event listener?
+   It is a procedure or function that waits for a certain event from the browser. Once that event is satisfied, most often, another "program" is executed.
 4. Why would we convert a NodeList into an Array? Array.from(NodeList)
 
-5. What is a component? A reusable, dry combination of html, css, and javascript. Usually created with a function and used to return an element or component.
+5. What is a component? A reusable, dry combination of html, css, and javascript. Usually components are created by a stand alone functions or class methods which return html.

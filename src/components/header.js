@@ -13,10 +13,10 @@ const Header = (title, date, temp) => {
   </div>
   `;
 
-  let shell = document.createElement("div");
-  shell.insertAdjacentHTML("beforeend", html);
+  let placeholder = document.createElement("div");
+  placeholder.insertAdjacentHTML("beforeend", html);
 
-  return shell.firstElementChild
+  return placeholder.firstElementChild
 }
 
 const headerAppender = (selector) => {
